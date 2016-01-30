@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CRUD Firebase</string>
+    <string name="action_settings">Settings</string>
+    <array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <string name="error_first_name_required">First Name Required</string>
+    <string name="error_last_name_required">Last Name Required</string>
+    <string name="error_zip_required">Zip Required</string>
+    <string name="error_zip_invalid">Zip Invalid</string>
+</resources>

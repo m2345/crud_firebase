@@ -1,0 +1,8 @@
+-keep class com.development.buccola.crudfirebase.MainActivity { <init>(); }
+-keep class com.development.buccola.crudfirebase.Add { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

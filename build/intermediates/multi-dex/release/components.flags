@@ -1,0 +1,30 @@
+-injars /home/megan/Documents/programming/android/AndroidStudioProjects/Android/AndroidProjects/CRUDFirebase/app/build/intermediates/transforms/jarMerging/release/jars/1/1f/combined.jar
+-outjars /home/megan/Documents/programming/android/AndroidStudioProjects/Android/AndroidProjects/CRUDFirebase/app/build/intermediates/multi-dex/release/componentClasses.jar
+
+-libraryjars /home/megan/android_sdk/sdk/build-tools/23.0.1/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration /home/megan/Documents/programming/android/AndroidStudioProjects/Android/AndroidProjects/CRUDFirebase/app/build/intermediates/multi-dex/release/components.flags
+
+
+-keep class com.development.buccola.crudfirebase.MainActivity {
+    <init>();
+}
+
+-keep class com.development.buccola.crudfirebase.Add {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
